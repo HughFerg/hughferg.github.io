@@ -4,7 +4,7 @@ title: Hugh Ferguson
 description: > # this means to ignore newlines until "baseurl:"
   A place for my ideas, projects, and current endeavors. 
 permalink: ':title/'
-# baseurl: "/fresh" # the subpath of your site, e.g. /blog
+baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
