@@ -8,8 +8,8 @@ baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
-linkedin: https://www.linkedin.com/in/hughferg/
-github: https://github.com/HughFerg
+linkedin: hughferg
+github: HughFerg
 
 # Contact form
 email: hughferguson25@gmail.com
