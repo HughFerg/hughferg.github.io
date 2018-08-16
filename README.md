@@ -1,1 +1,1 @@
-A site for my ideas, projects, and activities. Build on the Jekyll Fresh theme.
+A site for my ideas, projects, and activities. Built on the Jekyll Fresh theme.
