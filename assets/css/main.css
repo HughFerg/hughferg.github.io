@@ -740,6 +740,11 @@ html {
   src: url(/assets/fonts/Butler/Butler_Medium.otf)
 }
 
+@font-face {
+  font-family: ButlerBlack;
+  src: url(/assets/fonts/Butler/Butler_Black.otf)
+}
+
 @media screen and (min-width: 500px) {
   html {
     font-size: calc(15px + 5 * ((100vw - 500px) / 900));
@@ -816,6 +821,7 @@ pre code {
   padding: 0;
   margin: 0 -2rem;
 }
+
 .sidebar-menu .menu-items {
   list-style: none;
 }
@@ -831,6 +837,7 @@ pre code {
   -webkit-transition: all .35s;
   transition: all .35s;
 }
+
 .sidebar-menu .menu-links:hover {
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
@@ -870,12 +877,11 @@ pre code {
 }
 
 .sidebar-logo .logo {
-  font-family: 'ButlerLight';
+  font-family: 'ButlerMed';
   color: #ffffff;
-  /* text-transform: uppercase; */
   text-decoration: none;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .sidebar-social {
