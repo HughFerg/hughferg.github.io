@@ -6,16 +6,36 @@
     </div>
 
     <menu class="sidebar-menu">
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/about/">About</a></li>
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/essays/">Essays + Projects</a></li>
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/contact/">Music Blog</a></li>
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/contact/">Quotes</a></li>
-      <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/contact/">Contact</a></li>
+      {% if page.active == "about" %}
+        <li class="menu-items"><a class="active" href="{{site.baseurl}}/about/">About</a></li>
+      {% else %}
+        <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/about/">About</a></li>
+      {%endif %}
+      {% if page.active == "essays" %}
+        <li class="menu-items"><a class="active" href="{{site.baseurl}}/essays/">Essays + Projects</a></li>
+      {% else %}
+        <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/essays/">Essays + Projects</a></li>
+      {%endif %}
+      {% if page.active == "music" %}
+        <li class="menu-items"><a class="active" href="{{site.baseurl}}/music/">Music Blog</a></li>
+      {% else %}
+        <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/music/">Music Blog</a></li>
+      {%endif %}
+      {% if page.active == "quotes" %}
+        <li class="menu-items"><a class="active" href="{{site.baseurl}}/quotes/">Quotes</a></li>
+      {% else %}
+        <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/quotes/">Quotes</a></li>
+      {% endif %}
+      {% if page.active == "contact" %}
+        <li class="menu-items"><a class="active" href="{{site.baseurl}}/contact/">Contact</a></li>
+      {% else %}
+        <li class="menu-items"><a class="menu-links" href="{{site.baseurl}}/contact/">Contact</a></li>
+      {% endif %}
     </menu>
 
     <div class="sidebar-social">
-      <li class="social-items"><a href="https://linkedin.com/{{site.google-plus}}" class="social-links"><i class="social-icons fa fa-linkedin" aria-hidden="true"></i></a></li>
-      <li class="social-items"><a href="https://github.com/{{site.github}}" class="social-links"><i class="social-icons fa fa-github" aria-hidden="true"></i></a></li>
+      <li class="social-items"><a href="https://linkedin.com/{{site.google-plus}}" class="social-links"><i class="social-icons fa fa-linkedin" aria-hidden="true" target="_blank"></i></a></li>
+      <li class="social-items"><a href="https://github.com/{{site.github}}" class="social-links"><i class="social-icons fa fa-github" aria-hidden="true" target="_blank"></i></a></li>
     </div>
 
   </div>

@@ -819,6 +819,7 @@ pre code {
 .sidebar-menu .menu-items {
   list-style: none;
 }
+
 .sidebar-menu .menu-links {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -835,6 +836,19 @@ pre code {
           transform: translateY(3px);
   background-color: rgb(255, 255, 255);
   color: #515151;
+}
+
+.active {
+  font-size: 1.2rem;
+  padding: 1rem 1.3rem;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  color: #515151;
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+  -webkit-transition: all .35s;
+  transition: all .35s;
 }
 
 .sidebar-container {
