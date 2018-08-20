@@ -1015,7 +1015,7 @@ img.post-image, img.page-img {
   margin-bottom: 15px;
   -webkit-transition: all .7s ease;
   transition: all .7s ease;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(102, 207, 255);
   outline: 0;
   font-size: 0.7rem;
 }
@@ -1030,26 +1030,25 @@ img.post-image, img.page-img {
   font-size: 0.8rem;
   text-transform: uppercase;
   padding: 1rem 1.5rem;
-  color: #fff;
-  background: #rgb(102, 207, 255);
-  border: 0;
-  border-radius: 0;
+  background-color: #fff;
+  border: 2;
+  border-color: rgb(102, 207, 255);
   outline: 0;
   letter-spacing: 2px;
   cursor: pointer;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
-
-.form-btn:hover {
-  background-color: rgb(102, 207, 255);
+  
+  .form-btn:hover {
+    background-color: rgb(102, 207, 255);
 }
 
 .landing-img {
 
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: fill;
   height: auto;
 }
 
@@ -1064,6 +1063,48 @@ img.post-image, img.page-img {
 .quote-author {
   text-indent: 10%;
   font-size: 150%;
+}
+
+.home-header {
+  padding-top: 6rem;
+}
+
+.landing-intro-text {
+  font-family: Butler;
+  font-size: 250%;
+  font-weight: bold;
+  color: #000;
+}
+
+.articles-wrap {
+
+  padding-top: 3rem;
+  width: 80%;
+  font-size: 60%;
+  font-weight: normal;
+}
+
+.articles-title {
+
+  color: #000;
+  font-size: 120%;
+  padding-bottom: 2rem;
+}
+
+.articles-box {
+  
+  overflow: scroll hidden;
+  background-color: #ecf3f3;
+  height: 15rem;
+  border: solid;
+  border-width: 1px;
+  border-color: #000000;
+  padding: 1rem;
+}
+
+.article-link {
+
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 960px) {

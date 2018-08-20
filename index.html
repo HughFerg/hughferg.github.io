@@ -1,16 +1,19 @@
 ---
 layout: index
 ---
-<div class="container-fluid">
-    <h1>
-        Title?
-    </h1>
-    <div class="row">
-        <div class="col-md-6">
-            <img class="landing-img" src="assets/img/newHeadshot.jpg">
+<div class="container">
+    <div class="row home-header">
+        <div class="col-md-7 landing-intro-text">
+            A Place for My Ideas, Projects, and Current Endeavors
+            <div class="articles-wrap">
+                <div class="articles-title">
+                    Current Articles Worth Sharing
+                </div>
+                {% include articles.html %}     
+            </div> 
         </div>
-        <div class="col-md-6">
-            Welcome to my site. 
+        <div class="col-md-4">
+            <img class="landing-img" src="assets/img/newHeadshot.jpg">
         </div>
     </div>
 </div>
