@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '"The rare people who do become truly exceptional at something become amazing because they’re obsessed with improvement. And that obsession with improvement comes from an unerring belief that they are, in fact, not that great at all"'
+author: Mark Manson
+category: quotes
+---

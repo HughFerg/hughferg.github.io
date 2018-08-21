@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '"Happiness is reality minus expectations"'
+author: 
+category: quotes
+---

@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '"The evolutionary hangover is pretty real, we’re not ready for the nuances of modern society. Shedding light on why we react and respond in certain ways in certain situations will help alleviate those reactions over time."'
+author: Cory Allen
+category: quotes
+---

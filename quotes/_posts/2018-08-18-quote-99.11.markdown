@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '"Falling in love makes smoking pot all day look like the ultimate in restraint"'
+author: Dave Sim
+category: quotes
+---

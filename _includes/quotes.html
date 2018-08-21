@@ -1,0 +1,9 @@
+{% for post in site.categories.quotes %}
+    <div class="quote">
+        {{ post.quote }}
+    </div>
+    {% if post.author == %}
+    {% else %}
+        <div class="quote-author">-- {{ post.author }}</div>
+    {% endif %}
+{% endfor %}

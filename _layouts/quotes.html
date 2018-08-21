@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="page-article">
+  <div class="wrap-content">
+    <header class="page-header">
+      <h1 class="page-title">{{page.title}}</h1>
+      <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+    </header>
+    <div class="page-content">
+      {% include quotes.html %}
+    </div>
+    {% include disqus.html %}
+  </div>
+</article>

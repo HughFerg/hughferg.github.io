@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '"It seems to be a constant throughout history: In every period, people believed things that were just ridiculous, and believed them so strongly that you would have gotten in terrible trouble for saying otherwise. Is our time any different? To anyone who has read any amount of history, the answer is almost certainly no."'
+author: Paul Grahm
+category: quotes
+---

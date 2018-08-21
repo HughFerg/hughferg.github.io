@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '“Chase your reality, not just your dreams”'
+author: Christopher Nolan
+category: quotes
+---

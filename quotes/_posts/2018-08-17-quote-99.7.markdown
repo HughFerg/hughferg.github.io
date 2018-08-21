@@ -1,0 +1,6 @@
+---
+layout: post
+quote: '"We''re even wrong about which mistakes we''re making."'
+author: Carl Winfeld
+category: quotes
+---
