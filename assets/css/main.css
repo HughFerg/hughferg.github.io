@@ -1098,12 +1098,13 @@ img.post-image, img.page-img {
   height: 15rem;
   border: solid;
   border-width: 1px;
-  border-color: #000000;
+  border-color: #b4b4b4;
   padding: 1rem;
 }
 
 .article-link {
 
+  font-size: 90%;
   padding-bottom: 2rem;
 }
 

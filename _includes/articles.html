@@ -1,0 +1,8 @@
+<div class="articles-box">
+    {% for post in site.categories.articles %}
+    <div class="article-link">
+        {{ post.descript }} --- 
+        <a target="_blank" href="{{ post.link }}">{{ post.link }}</a>
+    </div>
+    {% endfor %}
+</div>   
