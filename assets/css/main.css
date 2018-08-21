@@ -1088,14 +1088,14 @@ img.post-image, img.page-img {
 
   color: #000;
   font-size: 120%;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .articles-box {
   
   overflow: scroll hidden;
   background-color: #ecf3f3;
-  height: 15.75rem;
+  height: 17.5rem;
   border: solid;
   border-width: 1px;
   border-color: #b4b4b4;
