@@ -1048,7 +1048,7 @@ img.post-image, img.page-img {
 
   background-position: center;
   background-size: cover;
-  width: fill;
+  width: 400px;
   height: auto;
 }
 
@@ -1095,7 +1095,7 @@ img.post-image, img.page-img {
   
   overflow: scroll hidden;
   background-color: #ecf3f3;
-  height: 15rem;
+  height: 15.75rem;
   border: solid;
   border-width: 1px;
   border-color: #b4b4b4;
