@@ -1,11 +1,8 @@
 <div class="articles-box">
-    {% for post in site.categories.articles limit:5 %}
+    {% for post in site.categories.articles limit: 4 %}
         <div class="article-link">
             {{ post.descript }} --- 
             <a target="_blank" href="{{ post.link }}">Read Here</a>
         </div>
-        {% if forloop.index == 5 %}
-            {% break %}
-        {% endif %}
     {% endfor %}
 </div>   
