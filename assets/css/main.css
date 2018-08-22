@@ -727,7 +727,7 @@ template {
 
 html {
   line-height: 1.5;
-  font-family: 'Butler', Helvetica, Arial, sans-serif;
+  font-family: Arial, 'Butler', Helvetica, sans-serif;
 }
 
 @font-face {
@@ -847,7 +847,7 @@ pre code {
 
 .active {
   font-size: 1.2rem;
-  padding: 1rem 1.3rem;
+  padding: 1rem 3.5rem;
   text-transform: uppercase;
   display: block;
   text-decoration: none;
@@ -877,7 +877,7 @@ pre code {
 }
 
 .sidebar-logo .logo {
-  font-family: 'ButlerMed';
+  /* font-family: 'ButlerMed'; */
   color: #ffffff;
   text-decoration: none;
   font-size: 3rem;
@@ -932,7 +932,7 @@ pre code {
   padding: 1rem;
 }
 .main-article .title-article, .main-article .page-title, .main-article .post-title, .page-article .title-article, .page-article .page-title, .page-article .post-title, .post .title-article, .post .page-title, .post .post-title {
-  font-family: 'Butler';
+  /* font-family: 'Butler'; */
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1070,7 +1070,7 @@ img.post-image, img.page-img {
 }
 
 .landing-intro-text {
-  font-family: Butler;
+  /* font-family: Butler; */
   font-size: 250%;
   font-weight: bold;
   color: #000;
@@ -1106,6 +1106,29 @@ img.post-image, img.page-img {
 
   font-size: 90%;
   padding-bottom: 2rem;
+}
+
+.article-link-archive {
+
+  font-size: 150%;
+  padding-bottom: 2rem;
+}
+
+.articles-archive-link {
+  padding-top: 1rem;
+  font-size: 80%;
+}
+
+.coming-soon {
+  font-size: 400%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.patience {
+  font-size: 10%;
+  text-transform: lowercase;
 }
 
 @media screen and (max-width: 960px) {
