@@ -766,7 +766,7 @@ img {
 }
 
 a {
-  color: rgb(102, 207, 255);
+  color: rgb(167, 217, 217);
   text-decoration: none;
 }
 a:hover {
@@ -832,7 +832,7 @@ pre code {
   display: block;
   text-decoration: none;
   padding: 1rem 1.3rem;
-  color: #fff;
+  color: rgb(77, 77, 77);
   font-weight: 700;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -841,7 +841,7 @@ pre code {
 .sidebar-menu .menu-links:hover {
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(95, 95, 95);
   color: #515151;
 }
 
@@ -852,7 +852,7 @@ pre code {
   display: block;
   text-decoration: none;
   color: #515151;
-  background-color: rgb(255, 255, 255);
+  background-color: #ecf3f3;
   font-weight: 700;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -878,7 +878,7 @@ pre code {
 
 .sidebar-logo .logo {
   /* font-family: 'ButlerMed'; */
-  color: #ffffff;
+  color: rgb(167, 167, 167);
   text-decoration: none;
   font-size: 3rem;
   font-weight: 500;
@@ -936,7 +936,7 @@ pre code {
   margin-bottom: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  color: rgb(0, 0, 0);
+  color: rgb(95, 95, 95);
   font-size: 2.5rem;
   margin-top: 0.67rem;
 }
@@ -1132,6 +1132,11 @@ img.post-image, img.page-img {
 .patience {
   font-size: 10%;
   text-transform: lowercase;
+}
+
+.about-text {
+  font-size: 200%;
+  color: #000;
 }
 
 @media screen and (max-width: 960px) {
