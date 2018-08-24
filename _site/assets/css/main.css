@@ -1093,7 +1093,7 @@ img.post-image, img.page-img {
 
 .articles-box {
   
-  overflow: scroll hidden;
+  overflow: scroll;
   background-color: #ecf3f3;
   height: 17.5rem;
   border: solid;
