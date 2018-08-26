@@ -2,7 +2,7 @@
     {% for post in site.categories.articles limit: 4 %}
         <div class="article-link">
             {{ post.descript }} --- 
-            <a target="_blank" href="{{ post.link }}">Read Here</a>
+            <a class="read-link" target="_blank" href="{{ post.link }}">Read Here</a>
         </div>
     {% endfor %}
 </div>   
