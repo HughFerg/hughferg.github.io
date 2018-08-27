@@ -1158,11 +1158,21 @@ img.post-image, img.page-img {
 }
 
 .about-ted-img {
+
   background-position: center;
   background-size: cover;
   width: 200%;
   height: auto;
   padding-bottom: 2rem;
+  margin-left: 0;
+}
+
+.mission-logo {
+
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  height: auto;
 }
 
 @media screen and (max-width: 960px) {
