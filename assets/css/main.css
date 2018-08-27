@@ -1160,8 +1160,9 @@ img.post-image, img.page-img {
 .about-ted-img {
   background-position: center;
   background-size: cover;
-  width: 30rem;
+  width: 200%;
   height: auto;
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 960px) {

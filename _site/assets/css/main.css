@@ -770,8 +770,9 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
-  color: rgb(102, 207, 255);
+  text-decoration: line-through;
+  text-decoration-color: #000;
+  color: rgb(167, 167, 167);
 }
 
 blockquote {
@@ -846,16 +847,21 @@ pre code {
 }
 
 .active {
+
   font-size: 1.2rem;
   padding: 1rem 3.5rem;
   text-transform: uppercase;
   display: block;
-  text-decoration: none;
+  text-decoration: inherit;
   color: #515151;
   background-color: #ecf3f3;
   font-weight: 700;
   -webkit-transition: all .35s;
   transition: all .35s;
+}
+
+.active:hover {
+  text-decoration-color: #fff;
 }
 
 .sidebar-container {
@@ -879,7 +885,6 @@ pre code {
 .sidebar-logo .logo {
   /* font-family: 'ButlerMed'; */
   color: rgb(167, 167, 167);
-  text-decoration: none;
   font-size: 3rem;
   font-weight: 500;
 }
@@ -1122,6 +1127,14 @@ img.post-image, img.page-img {
   font-size: 80%;
 }
 
+.archive-link:hover {
+  text-decoration: none;
+}
+
+.read-link:hover {
+  text-decoration: none;
+}
+
 .coming-soon {
   font-size: 400%;
   text-transform: uppercase;
@@ -1135,8 +1148,21 @@ img.post-image, img.page-img {
 }
 
 .about-text {
-  font-size: 200%;
+  font-size: 160%;
   color: #000;
+}
+
+.ted-img-wrap {
+  margin: 0 auto;
+  align-content: center;
+}
+
+.about-ted-img {
+  background-position: center;
+  background-size: cover;
+  width: 200%;
+  height: auto;
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 960px) {
