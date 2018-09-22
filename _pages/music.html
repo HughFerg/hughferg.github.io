@@ -1,11 +1,23 @@
 ---
-layout: post
+layout: default
 title: Music
 permalink: /music/
 active: music
 ---
-<div class="coming-soon">
-    Coming soon.
-    <div class="patience">patience</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 music-title">
+            Here's what I'm listening to right now:
+        </div>
+    </div>
+    <div class="row">
+        {% for post in site.categories.music %}
+            <div class="col-md-4 music-div">
+                <div class="music-img" style="background-image: url({{ site.baseurl }}/assets/img/music/{{ post.img }});">
+                    <div class="music-hover">{{ post.name }}<br>---<br>{{ post.artist }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    </div>
 </div>
-

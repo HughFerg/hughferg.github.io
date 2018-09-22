@@ -89,7 +89,7 @@ pre {
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
-  background-color: transparent;
+  color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
   /* 2 */
@@ -1229,6 +1229,54 @@ img.post-image, img.page-img {
   transform: translateY(-50%); 
 }
 
+.music-title {
+  font-size: 200%;
+  padding-bottom: 3rem;
+}
+
+.music-div {
+
+  padding: 0;
+  width: 15rem;
+  height: 15rem;
+  vertical-align: middle;
+}
+
+ .music-hover {
+  
+  font-weight: 300;
+  color: #000;
+  background-color: rgba(180, 180, 180, .6);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-size: 200%;
+  padding: 2rem;
+  opacity: 0;
+  -webkit-transition: opacity 1s;  
+  transition: opacity 1s;
+}
+
+.music-hover:hover {
+  opacity: 1;
+}
+
+ .music-img {
+
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  position: absolute;
+  -webkit-transition: opacity 1s;
+}
+
+.music.img:hover {
+  opacity: .1;
+}
+
 @media screen and (max-width: 960px) {
   .sidebar {
     width: 16rem;
@@ -1263,5 +1311,3 @@ img.post-image, img.page-img {
     display: block;
   }
 }
-
-
