@@ -1037,13 +1037,12 @@ img.post-image, img.page-img {
   font-size: 0.8rem;
   text-transform: uppercase;
   padding: 1rem 1.5rem;
-  border: 2;
-  border-color: rgb(177, 177, 177); 
-  outline: 0; 
   letter-spacing: 2px;
   cursor: pointer;
   -webkit-transition: all 1s;
   transition: all 1s;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
 }
   
   .form-btn:hover {
@@ -1119,7 +1118,7 @@ img.post-image, img.page-img {
 
 .article-link-archive {
 
-  font-size: 50%;
+  font-size: 130%;
   padding-bottom: 2rem;
 }
 
