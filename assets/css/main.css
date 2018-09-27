@@ -1153,19 +1153,28 @@ img.post-image, img.page-img {
   color: #000;
 }
 
-.ted-img-wrap {
-  margin: 0 auto;
-  align-content: center;
+.about-img-wrap {
+
+  text-align: center;
+  padding: 2rem;
 }
 
 .about-ted-img {
 
   background-position: center;
   background-size: cover;
-  width: 200%;
+  width: 35rem;
   height: auto;
-  padding-bottom: 2rem;
-  margin-left: 0;
+}
+
+.about-subheadings {
+
+  font-weight: 130%; 
+  font-size: 150%; 
+  text-transform: uppercase; 
+  text-decoration: underline; 
+  padding-top: 2rem; 
+  padding-bottom: 1rem;
 }
 
 .mission-logo {
