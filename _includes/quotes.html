@@ -1,4 +1,4 @@
-{% for post in site.categories.quotes %}
+{% for post in site.categories.quotes | sample:10 %}
     <div class="quote">
         {{ post.quote }}
     </div>
@@ -7,3 +7,4 @@
         <div class="quote-author">-- {{ post.author }}</div>
     {% endif %}
 {% endfor %}
+
