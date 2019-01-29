@@ -1,6 +1,6 @@
 ---
 layout: post
-quote: '"We have a tendency to want the other person to be a finished product while we give ourselves the grace to evolve."'
+quote: '"We have a tendency to want the other person to be a finished product while we give ourselves the grace to evolve"'
 author: 
 category: quotes
 ---

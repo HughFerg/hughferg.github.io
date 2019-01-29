@@ -1,6 +1,6 @@
 ---
 layout: post
-quote: '"Everything in moderation, including moderation."'
+quote: '"Everything in moderation, including moderation"'
 author: Oscar Wilde
 category: quotes
 ---

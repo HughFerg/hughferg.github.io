@@ -1,6 +1,6 @@
 ---
 layout: post
-quote: '"From one end of the pendelum''s swing, the other end seems especially far away."'
+quote: '"From one end of the pendelum''s swing, the other end seems especially far away"'
 author: Paul Grahm
 category: quotes
 ---
