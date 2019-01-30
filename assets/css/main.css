@@ -1245,13 +1245,14 @@ img.post-image, img.page-img {
 .music-div {
 
   padding: 0;
+  padding-bottom: 2rem;
 }
 
  .music-hover {
   
-  font-weight: 300;
+  font-weight: 320;
   color: #000;
-  background-color: rgba(180, 180, 180, .6);
+  background-color: rgba(180, 180, 180, 0.904);
   font-size: 200%;
   padding: .5rem;
   opacity: 0;
@@ -1276,7 +1277,12 @@ img.post-image, img.page-img {
 }
 
 .music.img:hover {
-  opacity: .1;
+  opacity: .8;
+}
+
+.book-entry {
+  padding: 2rem;
+  font-size: 120%;
 }
 
 @media screen and (max-width: 960px) {
