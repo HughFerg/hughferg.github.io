@@ -1285,6 +1285,67 @@ img.post-image, img.page-img {
   font-size: 120%;
 }
 
+@media (max-width: 500px) {
+  
+  .home-header {
+    padding: 2rem;
+  }
+
+  .content-index {
+    margin-left: 0;
+  }
+
+  .landing-img {
+    width: 40%;
+    height: 20%;
+  }
+  
+  .landing-intro-text {
+    font-size: 100%;
+  }
+
+  .pinned-title {
+    font-size: 100%;
+    padding-left: 50%;
+  }
+}
+
+@media (max-width: 763px) {
+  
+  .home-header {
+    padding: 2rem;
+  }
+
+  .content-index {
+    margin-left: 0;
+  }
+
+  .landing-img {
+    padding: 20%;
+    padding-bottom: 0;
+    padding-top: 5%;
+  }
+
+  .landing-img-parent img {
+    width: 100%;
+  }
+  
+  .landing-intro-text {
+    font-size: 150%;
+  }
+
+  .pinned-title {
+    font-size: 120%;
+    padding-left: 50%;
+  }
+}
+
+@media (max-width: 1538px) {
+  .landing-img {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .sidebar {
     width: 16rem;
