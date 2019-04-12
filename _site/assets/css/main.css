@@ -1151,6 +1151,7 @@ img.post-image, img.page-img {
 .about-text {
   font-size: 160%;
   color: #000;
+  line-height: 170%;
 }
 
 .about-img-wrap {
