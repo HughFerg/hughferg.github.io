@@ -1381,3 +1381,13 @@ img.post-image, img.page-img {
     display: block;
   }
 }
+
+
+.zine img {
+  padding: 25em;
+
+  width: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
