@@ -1383,10 +1383,9 @@ img.post-image, img.page-img {
 }
 
 
-.zine img {
+.zine {
   padding: 25em;
 
-  width: 70%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
