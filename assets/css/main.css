@@ -1390,3 +1390,7 @@ img.post-image, img.page-img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#img1 {
+  cursor: url('../img/next-img-icon.svg'), auto;
+}
