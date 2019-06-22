@@ -24,7 +24,8 @@ function changeImg() {
 
     let img1 = document.getElementById('img1');
 
-    let imgList = ['https://hugh-ferguson.com/assets/img/zine/test-page-1.jpg',
+    let imgList = ['https://hugh-ferguson.com/assets/img/zine/test-page-7.jpg',
+        'https://hugh-ferguson.com/assets/img/zine/test-page-1.jpg',
         'https://hugh-ferguson.com/assets/img/zine/test-page-6.jpg',
         'https://hugh-ferguson.com/assets/img/zine/test-page-2.jpg',
         'https://hugh-ferguson.com/assets/img/zine/test-page-5.jpg',
