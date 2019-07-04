@@ -1391,6 +1391,10 @@ img.post-image, img.page-img {
   background-size: cover;
 }
 
-#img1 {
+.zine-img {
   cursor: url('../img/next-img-icon.svg'), auto;
+}
+
+#img1 {
+
 }
