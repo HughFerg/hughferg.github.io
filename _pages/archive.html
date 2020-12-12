@@ -1,13 +1,28 @@
 ---
-layout: default
+layout: index
 title: Archive
 permalink: /archive/
 active: archive
 ---
 
+<br>
+<a href="https://www.youtube.com/watch?v=rKUJG5TdAl8">sameolmeek</a>
+<br>
+<a href="https://www.youtube.com/watch?v=VFCey9o_0hY">mos def</a>
+<br>
+<a href="https://www.youtube.com/watch?v=LcbTSLZl9hs">Nujabes</a>
+<br>
+<br>
+<u>articles</u>
+<br>
 {% for post in site.categories.articles %}
     <div class="article-link-archive">
         {{ post.descript }} --- 
         <a target="_blank" href="{{ post.link }}">Read Here</a>
     </div>
 {% endfor %}
+<br>
+<br>
+<a href="/index.html">back</a>
+<br>
+<br>
