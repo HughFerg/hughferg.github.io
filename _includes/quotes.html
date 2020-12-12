@@ -4,7 +4,8 @@
     </div>
     {% if post.author == %}
     {% else %}
-        <div class="quote-author">-- {{ post.author }}</div>
+        <div class="quote-author">&nbsp;&nbsp;{{ post.author }}</div>
     {% endif %}
+    <br>
+    <br>
 {% endfor %}
-
