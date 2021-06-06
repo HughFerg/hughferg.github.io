@@ -1,0 +1,179 @@
+---
+layout: panels
+title: Panels
+permalink: /panels/
+active: panels
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            width: 100%;
+        }
+
+        p {
+            padding-bottom: 1vh;
+        }
+
+        h1 {
+            margin: 0 auto;
+        }
+
+        .outer {
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .panel {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+            width: 4%;
+            transition: all 0.5s ease;
+            padding-bottom: 5vh;
+        }
+
+        .panel p,
+        h1 {
+            transform: rotate(90deg);
+            transform-origin: 0;
+            transition: all 1s ease;
+        }
+
+        .panel .gallery-img {
+            opacity: 0;
+            transform: rotate(90deg);
+            transform-origin: 0;
+            transition: all 1s ease;
+        }
+
+        .home {
+            background: #fdd835;
+            z-index: 10;
+        }
+
+        .one {
+            background: #960018;
+            z-index: 75;
+        }
+
+        /* .one p {
+  margin-bottom: 30em;
+} */
+
+        .two {
+            background: #9F00C5;
+            z-index: 50;
+        }
+
+        .three {
+            background: #FAF0E6;
+            z-index: 25;
+        }
+
+        .active {
+            width: 88%;
+        }
+
+        .active p {
+            transform: rotate(0);
+            padding-left: 2vw;
+        }
+
+        .active h1 {
+            transform: rotate(0);
+        }
+
+        .active .gallery-img {
+            opacity: 1;
+            max-height: 70vh;
+            transform: rotate(0);
+        }
+
+        .gallery-img {
+            padding: 0 2vw;
+        }
+
+        .gallery {
+            margin: 0 auto;
+            /* padding-top: 30vh; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+
+        <div class="home panel">
+            <p>ZERO</p>
+            <p>ZERO</p>
+            <p>ZERO</p>
+            <br>
+            <h1>"GOLD"</h1>
+            <br>
+            <div class="gallery" id="nanogallery2">
+                <img class="gallery-img" src="/assets/img/daft-punk-poster-1.jpg"></img>
+                <img class="gallery-img" src="/assets/img/daft-punk-poster-2.jpg"></img>
+            </div>
+        </div>
+
+        <div class="one panel">
+            <p>ONE</p>
+            <p>ONE</p>
+            <p>ONE</p>
+            <br>
+            <h1>"CARMINE"</h1>
+            <br>
+            <div class="gallery" id="nanogallery2">
+                <img class="gallery-img" src="/assets/img/punk-queen.jpg"></img>
+                <img class="gallery-img" src="/assets/img/pepsi.jpg"></img>
+            </div>
+        </div>
+
+        <div class="two panel">
+            <p>TWO</p>
+            <p>TWO</p>
+            <p>TWO</p>
+            <br>
+            <h1>"TYRIAN"</h1>
+            <br>
+            <div class="gallery" id="nanogallery2">
+                <img class="gallery-img" src="/assets/img/wave-rabbit.png"></img>
+                <img class="gallery-img" src="/assets/img/wave-circut.jpg"></img>
+            </div>
+        </div>
+
+        <div class="three panel">
+            <p>THREE</p>
+            <p>THREE</p>
+            <p>THREE</p>
+            <br>
+            <h1>"BEIGE"</h1>
+            <br>
+            <div class="gallery" id="nanogallery2">
+                <img class="gallery-img" src="/assets/img/hausmann-collage.jpg"></img>
+                <img class="gallery-img" src="/assets/img/dada-boi.jpg"></img>
+            </div>
+        </div>
+
+        <script src="/scripts/panels.js"></script>
+
+    </div>
+</body>
+
+</html>
